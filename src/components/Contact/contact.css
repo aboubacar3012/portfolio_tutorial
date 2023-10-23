@@ -25,6 +25,7 @@
   width: 50rem;
   display: flex;
   overflow-x: scroll;
+  overflow-y: hidden;
  
   
 }
