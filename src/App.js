@@ -1,11 +1,22 @@
 import React from 'react';
 import './App.css';
+import NavBar from './components/NavBar/navbar';
+import Intro from './components/Intro/intro';
+import Skills from './components/Skills/skills';
+import Projects from './components/Projects/projects';
+import Contact from './components/Contact/contact';
+import Footer from './components/Footer/footer';
 
 
 function App() {
   return (
-    <div className="App">
-      <h1>React App</h1>
+    <div>
+      <NavBar />
+      <Intro />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }

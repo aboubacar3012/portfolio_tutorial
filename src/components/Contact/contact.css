@@ -1,0 +1,136 @@
+#contactPage {
+  /* min-height: calc(100vh - 4rem); */
+  width: 100vw;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactPageTitle {
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+.contactPageDesc {
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.clientsImgs {
+  margin: 2rem auto;
+  width: 50rem;
+  display: flex;
+  overflow-x: scroll;
+ 
+  
+}
+
+.clientsImg {
+  object-fit: cover;
+  width: 15rem;
+  height: 4rem;
+  margin:auto;
+  padding: 0.25rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  background: rgb(50, 50, 50);
+}
+
+.clientsImg:hover {
+  background: rgb(40, 40, 40);
+  transition: background 0.5s ease-in-out;
+  transform: scale(1.08);
+  transition: transform 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 600px) {
+ .clientsImg{
+  width: 100%;
+  height: 5rem;
+ }
+ .clientsImgs {
+  margin: 1rem 0;
+  padding: 1rem;
+  height: 15rem;
+  width: 100vw;
+  display: block;
+ }
+}
+
+#clients {
+  padding: 2rem;
+}
+
+ #contactForm {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  max-width: 60rem;
+ }
+
+ .name, .email, .msg, .phone, .subject {
+  font-size: medium;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background: rgba(40, 40, 40);
+  resize: none;
+ }
+
+ .contactFormButton {
+  background: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem 3.5rem;
+  cursor: pointer;
+  margin: 2rem;
+ }
+
+  .contactFormButton:hover {
+    background: lightyellow;
+    color: black;
+    animation: pulse 1s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.link {
+  object-fit: cover;
+  height: 3rem;
+  width: 3rem;
+  margin: 0 0.75rem;
+  padding: 0.25rem;
+  cursor: pointer;
+   
+}
+
+.notifMessage {
+  color: yellow;
+}
