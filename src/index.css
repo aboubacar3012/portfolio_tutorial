@@ -13,3 +13,14 @@ body {
   overflow: hidden ;
   overflow-y: scroll;
 }
+
+/* Masquer la barre de défilement standard */
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+/* Barre de défilement personnalisée */
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
