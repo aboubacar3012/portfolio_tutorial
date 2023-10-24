@@ -14,8 +14,8 @@ import Portfolio9 from "../../assets/portfolio-9.jpg";
 const Projects = () => {
   return (
     <section id="projects">
-      <h2 className='projectsTitle'>
-        Projets réalisés
+      <h2 className='projectTitle'>
+        Projets récents
       </h2>
       <span className='projectsDesc'>
         Je fais attention aux détails et j'aime créer des sites web propres, uniques et beaux. <br/>

@@ -11,8 +11,10 @@
 }
 
 .contactPageTitle {
-  font-size: 3rem;
-  margin: 1rem;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .contactPageDesc {
@@ -32,7 +34,7 @@
 
 .clientsImg {
   object-fit: cover;
-  width: 15rem;
+  width: 300px;
   height: 4rem;
   margin:auto;
   padding: 0.25rem;
@@ -59,6 +61,7 @@
   height: 15rem;
   width: 100vw;
   display: block;
+  overflow-y: scroll;
  }
 }
 
