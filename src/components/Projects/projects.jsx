@@ -1,6 +1,6 @@
 import React from 'react'
 import "./projects.css";
-import Portfolio1 from "../../assets/portfolio-1.png";
+import Portfolio1 from "../../assets/portfolio-1.jpg";
 import Portfolio2 from "../../assets/portfolio-2.png";
 import Portfolio3 from "../../assets/portfolio-3.png";
 import Portfolio4 from "../../assets/portfolio-4.png";
@@ -26,9 +26,9 @@ const Projects = () => {
         <img src={Portfolio1} alt="" className='projectsImg' />
         <img src={Portfolio2} alt="" className='projectsImg' />
         <img src={Portfolio8} alt="" className='projectsImg' />
+        <img src={Portfolio9} alt="" className='projectsImg' />
         <img src={Portfolio3} alt="" className='projectsImg' />
         <img src={Portfolio4} alt="" className='projectsImg' />
-        <img src={Portfolio9} alt="" className='projectsImg' />
         <img src={Portfolio5} alt="" className='projectsImg' />
         <img src={Portfolio6} alt="" className='projectsImg' />
       </div>
