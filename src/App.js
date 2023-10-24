@@ -1,22 +1,19 @@
 import React from 'react';
 import './App.css';
-import NavBar from './components/NavBar/navbar';
-import Intro from './components/Intro/intro';
-import Skills from './components/Skills/skills';
-import Projects from './components/Projects/projects';
-import Contact from './components/Contact/contact';
-import Footer from './components/Footer/footer';
-
 
 function App() {
   return (
     <div>
-      <NavBar />
-      <Intro />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
+      <h1 style={{
+        color: 'yellow',
+        fontSize: 50,
+        textAlign: 'center',
+        marginTop: 50
+      
+      }}>
+        Portfolio
+        <hr />
+      </h1>
     </div>
   );
 }
